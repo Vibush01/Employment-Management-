@@ -10,9 +10,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 app.use(cors({
-    origin: '*', // Allow all origins for simplicity in deployment
-    methods: ['GET', 'POST', 'PUT', 'DELETE'],
-    allowedHeaders: ['Content-Type']
+    origin: 'https://employmentmanagement.netlify.app/',
 }));
 app.use(express.json());
 
