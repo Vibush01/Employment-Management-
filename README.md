@@ -3,7 +3,9 @@
 > A full-stack MERN application for efficient employee record management, featuring infinite scrolling, custom ID generation, and optimized performance.
 
 [![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Click_Here-blue?style=for-the-badge)](https://employmentmanagement.netlify.app)
-
+> **⚠️ Server Cold Start Notice:**
+> The backend is hosted on **Render's Free Tier**. To save resources, the server "spins down" after 15 minutes of inactivity.
+> **Please allow 20-30 seconds for the initial load** while the server wakes up. Once active, the application will perform at normal speed.
 
 ## 🛠️ Tech Stack
 
